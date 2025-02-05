@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #bc6c25;
+  --secondary-color: #4d3822;
+  --hover-color: #e76f51;
+}
+* {
+  font-family: "Plus Jakarta Sans", serif;
+}
+a {
+  /* color: white !important; */
+}
+
+/** NAVBAR */
+
+.navbar {
+  background-color: transparent !important;
+}
+.navbar .container {
+  background-color: rgba(0, 0, 0, 0.321) !important;
+}
+.navbar-nav {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+  color: var(--hover-color) !important;
+}
+
+/** CAROUSEL */
