@@ -2,12 +2,10 @@
   --primary-color: #bc6c25;
   --secondary-color: #4d3822;
   --hover-color: #e76f51;
+  --section-color: #b78752;
 }
 * {
   font-family: "Plus Jakarta Sans", serif;
-}
-a {
-  /* color: white !important; */
 }
 
 /** NAVBAR */
@@ -114,4 +112,48 @@ section#about button {
   border: none;
   padding: 1.1rem 1.1rem;
   font-weight: bold;
+}
+
+/** MEET PEOPLE */
+
+#people {
+  background-color: var(--section-color);
+}
+#people .container {
+  background-color: var(--secondary-color);
+}
+#people .card {
+  background-color: var(--primary-color);
+  transition: all 0.6s;
+  overflow: hidden;
+}
+#people .card:hover {
+  transform: scale(1.1);
+}
+#people .card img {
+  transition: all 0.6s;
+}
+#people .card img:hover {
+  transform: scale(1.1);
+}
+#people i {
+  transition: all 0.6s;
+}
+#people i:hover {
+  opacity: 0.6;
+}
+/* .bi-linkedin {
+  color: #0a66c2;
+} */
+
+/* *OUR MENU */
+#menu {
+  background-color: var(--secondary-color);
+}
+#menu button {
+  background-color: var(--secondary-color) !important;
+  margin-right: 1rem;
+}
+#menu .container {
+  background-color: var(--primary-color) !important;
 }
