@@ -43,9 +43,7 @@
 .carousel-caption {
   bottom: 15rem;
 }
-.carousel-caption h1 {
-  /* font-size: 1.5rem; */
-}
+
 .cafe {
   color: white;
   position: relative;
@@ -142,9 +140,6 @@ section#about button {
 #people i:hover {
   opacity: 0.6;
 }
-/* .bi-linkedin {
-  color: #0a66c2;
-} */
 
 /* *OUR MENU */
 #menu {
@@ -156,4 +151,49 @@ section#about button {
 }
 #menu .container {
   background-color: var(--primary-color) !important;
+}
+section#menu .menu-header {
+  color: var(--primary-color);
+}
+
+/* *CONTACT */
+
+#contact {
+  /* background-color: var(--primary-color); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.509),
+      rgba(188, 107, 37, 0.66)
+    ),
+    url(../img/coffee-time.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#contact input,
+#contact textarea {
+  background-color: inherit;
+}
+#contact input:focus,
+#contact textarea:focus {
+  background-color: var(--primary-color);
+}
+label {
+  color: whitesmoke;
+}
+textarea {
+  resize: none;
+  height: 125px !important;
+}
+input::placeholder {
+  color: whitesmoke !important;
+}
+.google-map {
+  filter: grayscale(100%);
+  border-radius: 25px;
+}
+
+/* * FOOTER */
+footer {
+  background-color: var(--primary-color);
 }
